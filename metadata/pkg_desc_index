@@ -1,4 +1,4 @@
-app-arch/engrampa 1.26.1 1.28.0: Engrampa archive manager for MATE
+app-arch/engrampa 1.28.0 1.28.1: Engrampa archive manager for MATE
 app-editors/pluma 1.26.1 1.28.0: Pluma text editor for the MATE desktop
 app-editors/pluma-plugins 1.28.0: A set of plugins for Pluma, the MATE text editor.
 app-text/atril 1.28.0: Atril document viewer for MATE
@@ -10,7 +10,7 @@ mate-base/mate-applets 1.26.1-r2 1.28.0: Applets for the MATE Desktop and Panel
 mate-base/mate-applets-meta 1.26.0 1.27.1 1.28.0: Meta package for MATE panel applets
 mate-base/mate-common 1.26.0 1.28.0: Common files for development of MATE packages
 mate-base/mate-control-center 1.28.0: The MATE Desktop configuration tool
-mate-base/mate-desktop 1.26.2 1.28.1: Libraries for the MATE desktop that are not part of the UI
+mate-base/mate-desktop 1.28.1 1.28.2: Libraries for the MATE desktop that are not part of the UI
 mate-base/mate-menus 1.26.1 1.28.0: MATE menu system, implementing the F.D.O cross-desktop spec
 mate-base/mate-panel 1.26.4 1.28.0: The MATE panel
 mate-base/mate-session-manager 1.26.1 1.28.0: MATE session manager
@@ -21,10 +21,10 @@ mate-extra/caja-dropbox 1.26.0-r1 1.28.0: Store, Sync and Share Files Online
 mate-extra/caja-extensions 1.26.1 1.28.0: Several Caja extensions
 mate-extra/mate-calc 1.26.0-r1 1.28.0: Calculator for MATE
 mate-extra/mate-indicator-applet 1.26.0-r1 1.28.0: MATE indicator applet
-mate-extra/mate-media 1.26.2 1.28.0: Multimedia related programs for the MATE desktop
+mate-extra/mate-media 1.28.0 1.28.1: Multimedia related programs for the MATE desktop
 mate-extra/mate-netbook 1.27.0: MATE utilities for netbooks
-mate-extra/mate-polkit 1.26.0-r1 1.26.1 1.28.0: A MATE specific DBUS service that is used to bring up authentication dialogs
-mate-extra/mate-power-manager 1.26.1 1.28.0: Session daemon for MATE that makes it easy to manage your laptop or desktop
+mate-extra/mate-polkit 1.28.0 1.28.1: A MATE specific DBUS service that is used to bring up authentication dialogs
+mate-extra/mate-power-manager 1.28.0 1.28.1: Session daemon for MATE that makes it easy to manage your laptop or desktop
 mate-extra/mate-screensaver 1.26.2 1.28.0: Replaces xscreensaver, integrating with the MATE desktop
 mate-extra/mate-sensors-applet 1.26.0 1.28.0: MATE panel applet to display readings from hardware sensors
 mate-extra/mate-system-monitor 1.26.2 1.26.3 1.28.0: The MATE System Monitor
