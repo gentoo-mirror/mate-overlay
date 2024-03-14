@@ -5,8 +5,9 @@ EAPI=8
 
 inherit mate
 
-if [[ ${PV} != 9999 ]]; then
-	KEYWORDS="amd64 ~arm ~arm64 ~loong ~riscv x86"
+MINOR=$(($(ver_cut 2) % 2))
+if [[ ${MINOR} -eq 0 ]]; then
+	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 fi
 
 DESCRIPTION="Session daemon for MATE that makes it easy to manage your laptop or desktop"

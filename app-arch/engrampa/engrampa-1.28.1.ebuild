@@ -3,12 +3,11 @@
 
 EAPI=8
 
-if [[ ${PV} == 9999* ]]; then
-	EGIT_REPO_URI="https://github.com/mate-desktop/${PN}.git"
-	inherit git-r3
+MINOR=$(($(ver_cut 2) % 2))
+if [[ ${MINOR} -eq 0 ]]; then
+	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 else
-	SRC_URI="https://github.com/mate-desktop/${PN}/archive/${P}.tar.xz"
-	KEYWORDS="amd64 ~arm ~arm64 ~loong ~riscv x86"
+	KEYWORDS=""
 fi
 
 inherit mate optfeature
@@ -29,7 +28,7 @@ DEPEND="
 	x11-libs/libSM
 	x11-libs/pango
 	caja? ( >=mate-base/caja-1.17.1 )
-	magic? ( sys-apps/file )
+	magic? ( >=sys-apps/file-5.38 )
 "
 RDEPEND="
 	${DEPEND}
@@ -41,10 +40,6 @@ BDEPEND="
 	>=sys-devel/gettext-0.19.8
 	virtual/pkgconfig
 "
-
-PATCHES=(
-	"${FILESDIR}"/${PN}-1.26.0-clang16.patch
-)
 
 src_configure() {
 	mate_src_configure \
