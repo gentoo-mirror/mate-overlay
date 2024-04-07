@@ -44,5 +44,7 @@ mate-extra/caja-extensions:wallpaper - Add an extension to support setting an im
 mate-extra/mate-polkit:accountsservice - Support extraction of data from AccountsService
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
 mate-extra/mate-system-monitor:wnck - Enable experimental support using x11-libs/libwnck.
+mate-extra/mate-tweak:dropdown - Support the x11-terms/tilda dropdown terminal emulator
+mate-extra/mate-tweak:netbook - Support the MATE utilities for netbooks, mate-extra/mate-netbook
 mate-extra/mate-utils:applet - Enable the mate dictionary applet
 media-gfx/eom:imagemagick - Use media-gfx/imagemagick as an external backend for the thumbnailer

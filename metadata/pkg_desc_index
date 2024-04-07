@@ -28,7 +28,7 @@ mate-extra/mate-power-manager 1.28.0 1.28.1: Session daemon for MATE that makes 
 mate-extra/mate-screensaver 1.26.2 1.28.0: Replaces xscreensaver, integrating with the MATE desktop
 mate-extra/mate-sensors-applet 1.26.0 1.28.0: MATE panel applet to display readings from hardware sensors
 mate-extra/mate-system-monitor 1.26.2 1.26.3 1.28.0: The MATE System Monitor
-mate-extra/mate-tweak 22.10.0: MATE Tweak is a small utility to fine-tune the MATE desktop environment
+mate-extra/mate-tweak 22.10.0: Tweak tool for the MATE Desktop
 mate-extra/mate-user-guide 1.26.2 1.28.0: User documentation for MATE Desktop
 mate-extra/mate-user-share 1.28.0: Personal file sharing for the MATE desktop
 mate-extra/mate-utils 1.26.0 1.26.1 1.28.0: Utilities for the MATE desktop
