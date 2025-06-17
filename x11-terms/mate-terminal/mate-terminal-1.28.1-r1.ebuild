@@ -12,14 +12,15 @@ MY_COMMIT="4074560e3642a53ace07b31baaf3f04c060dcd0b"
 MINOR=$(($(ver_cut 2) % 2))
 if [[ ${MINOR} -eq 0 ]]; then
 	SRC_URI="
-		https://github.com/mate-desktop/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${PN}.tar.gz
-		https://github.com/mate-desktop/mate-submodules/archive/4074560e3642a53ace07b31baaf3f04c060dcd0b.tar.gz
+		https://github.com/mate-desktop/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
+		https://github.com/mate-desktop/mate-submodules/archive/$"{MY_COMMIT}".tar.gz -> mate-submodules-${MY_COMMIT}.tar.gz
 	"
 	S="${WORKDIR}/${PN}-${PV}"
 	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 fi
 
 DESCRIPTION="The MATE Terminal"
+HOMEPAGE="https://github.com/mate-desktop/mate-terminal"
 LICENSE="FDL-1.1+ GPL-2 GPL-3+ LGPL-3+"
 SLOT="0"
 
@@ -53,6 +54,5 @@ src_prepare() {
 	default
 	# Mate pulls submodules directly from git, this  moves the earlier pulled
 	# sources to a tagged commit so we are able to track changes easier.
-	mv ${WORKDIR}/mate-submodules-${MY_COMMIT} ${S}/subprojects/mate-submodules
+	mv $"{WORKDIR}"/mate-submodules-$"{MY_COMMIT}" $"{S}"/subprojects/mate-submodules
 }
-
