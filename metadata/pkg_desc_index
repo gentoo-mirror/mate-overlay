@@ -1,3 +1,4 @@
 mate-base/mate-wayland-session 1.28.3 9999: Mate wayland session
+mate-extra/mate-media 1.28.1-r3: Multimedia related programs for the MATE desktop
 mate-extra/mate-polkit 1.28.1-r2: A MATE specific DBUS service that is used to bring up authentication dialogs
 x11-terms/mate-terminal 1.28.1-r1: The MATE Terminal
