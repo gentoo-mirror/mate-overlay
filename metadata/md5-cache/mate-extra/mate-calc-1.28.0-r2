@@ -1,0 +1,13 @@
+BDEPEND=>=app-accessibility/at-spi2-core-2.46.0 >=dev-libs/glib-2.50:2 dev-libs/libxml2:2= dev-libs/mpc:= >=dev-libs/mpfr-4.0.2:= >=x11-libs/gtk+-3.22:3 x11-libs/pango app-text/yelp-tools dev-libs/libxml2 >=sys-devel/gettext-0.19.8 virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Calculator for MATE
+EAPI=8
+HOMEPAGE=https://github.com/mate-desktop/mate-calc
+INHERIT=meson
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~riscv ~x86
+LICENSE=CC-BY-SA-3.0 GPL-2+
+RDEPEND=>=app-accessibility/at-spi2-core-2.46.0 >=dev-libs/glib-2.50:2 dev-libs/libxml2:2= dev-libs/mpc:= >=dev-libs/mpfr-4.0.2:= >=x11-libs/gtk+-3.22:3 x11-libs/pango virtual/libintl
+SLOT=0
+SRC_URI=https://github.com/mate-desktop/mate-calc/archive/refs/tags/v1.28.0.tar.gz -> mate-calc-1.28.0.tar.gz https://github.com/mate-desktop/mate-submodules/archive/${MY_COMMIT}.tar.gz -> mate-submodules-4074560e3642a53ace07b31baaf3f04c060dcd0b.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b043191f3a82642545249acea7318e03	meson	99466844dd8d4fcfb07578a76f5a9922
+_md5_=88368609fa853d5abce1fea478e507ff
