@@ -9,5 +9,5 @@ LICENSE=CC-BY-SA-3.0 GPL-2+
 RDEPEND=>=app-accessibility/at-spi2-core-2.46.0 >=dev-libs/glib-2.50:2 dev-libs/libxml2:2= dev-libs/mpc:= >=dev-libs/mpfr-4.0.2:= >=x11-libs/gtk+-3.22:3 x11-libs/pango virtual/libintl
 SLOT=0
 SRC_URI=https://github.com/mate-desktop/mate-calc/archive/refs/tags/v1.28.0.tar.gz -> mate-calc-1.28.0.tar.gz https://github.com/mate-desktop/mate-submodules/archive/${MY_COMMIT}.tar.gz -> mate-submodules-4074560e3642a53ace07b31baaf3f04c060dcd0b.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	bb392d69d55c48a5483d356933a26d57	meson	99466844dd8d4fcfb07578a76f5a9922
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	601de75299d1a5fb14b475836969af0f	meson	99466844dd8d4fcfb07578a76f5a9922
 _md5_=88368609fa853d5abce1fea478e507ff
